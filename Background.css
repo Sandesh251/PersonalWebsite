@@ -1,0 +1,130 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    color: white;
+}
+
+.background {
+    background-color: black;
+    background-image: url('IMG20211104215056 (1).jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-position:left; */
+    height: 100vh;
+    width: 100%;
+}
+
+.nav {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 6%;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+ul li a:hover {
+    color: red;
+}
+
+.logo {
+    font-size: 65px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+span {
+    color: red;
+}
+
+.button1 {
+    font-size: 20px;
+    text-align: center;
+    background-color: red;
+    border-radius: 10vw;
+    font-weight: bold;
+    border: 2px solid transparent;
+    padding: 10px 25px;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: grey;
+    border: 2px solid red;
+    color: red;
+}
+
+.intro {
+    padding-top: 15vh;
+    padding-left: 50vw;
+
+}
+
+.intro p {
+    color: rgb(35, 121, 202);
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 7vw;
+}
+
+.bio {
+    padding-left: 22vw;
+}
+
+.background form input:first-child {
+    display: inline-block;
+    width: 35%;
+    border: 2px solid red;
+    padding: 14px 130px 14px 15px;
+    outline: none;
+    border-radius: 30px;
+    margin-left: 800px;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+}
+
+.background form input:last-child {
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 470px;
+    right: 207px;
+}
+
+.form {
+    margin-top: 40px;
+}
+
+.button1:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px rgb(16, 211, 81);
+    transform: translateY(4px);
+  }

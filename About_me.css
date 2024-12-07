@@ -1,0 +1,54 @@
+.About-me{
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    background-color: #191919;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.picture{
+    height: 75vh;
+    width: 21vw;
+    background-image: url('IMG_20220312_171340.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 22vw;
+}
+.About-text{
+    height: 66vh;
+    width: 30vw;
+    margin-right: 22vw;
+}
+.About-me h1{
+    font-size: 90px;
+    font-weight: bold;
+} 
+
+.About-me h2{
+    font-size: 45px;
+    font-weight: bold;
+}  
+
+.About-me p{
+    margin: 10px;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    color: rgb(35, 121, 202);
+}
+
+.button{
+    background-color: red;
+    color: white;
+    margin: 10px 10px;
+}
+
+.button:hover{
+    background-color: transparent;
+    border: 1px solid red;
+}
+
+title{
+    color: red;
+}
